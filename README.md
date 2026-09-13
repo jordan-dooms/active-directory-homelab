@@ -140,5 +140,5 @@ Documenting failures and troubleshooting is an intentional part of this project 
 - Cybersecurity Fundamentals
 
   
-[Disclaimer]
+# Disclaimer
 This is a privately maintained home lab created for educational, professional development, and cybersecurity practice purposes.
