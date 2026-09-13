@@ -12,7 +12,7 @@ _________________________
 
 - The environment is designed to simulate a small business network and provide a controlled environment for testing administrative and security concepts.
 
-Objectives
+# Objectives
 - Deploy and configure Windows Server 2022
 - Implement Active Directory Domain Services (AD DS)
 - Configure DNS and domain services
@@ -56,7 +56,7 @@ The lab uses separate networks to simulate a production environment and an attac
 
 - corp.lab
 
-  Infrastructure
+# Infrastructure
 
 | System | Role | IP Address |
 |---|---|---|
@@ -110,10 +110,10 @@ This section will document issues encountered during the development of the lab,
 
 Documenting failures and troubleshooting is an intentional part of this project because effective IT and cybersecurity work requires the ability to diagnose and resolve problems in addition to configuring systems successfully.
 
-Future Improvements
+# Future Improvements
+- 
 
-Planned improvements include:
-
+# Planned improvements include:
 - Expand Group Policy configuration
 - Add additional security controls
 - Expand Splunk dashboards and detection capabilities
