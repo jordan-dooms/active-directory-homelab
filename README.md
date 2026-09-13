@@ -56,12 +56,14 @@ The lab uses separate networks to simulate a production environment and an attac
 
 - corp.lab
 
-Infrastructure
-System	        Role                  	IP Address
-DC01	      Domain Controller /            DNS	192.168.50.40
-WIN11-CMD  	Windows 11 Command Center	      192.168.50.10
-WIN11-TEST	Windows 11 Test Client	        192.168.50.30
-Kali	      Security Testing System     	 192.168.60.0/24
+  Infrastructure
+
+| System | Role | IP Address |
+|---|---|---|
+| **DC01** | Domain Controller / DNS | `192.168.50.40` |
+| **WIN11-CMD** | Windows 11 Command Center | `192.168.50.10` |
+| **WIN11-TEST** | Windows 11 Test Client | `192.168.50.30` |
+| **Kali** | Security Testing System | `192.168.60.x` |
 
 [Architecture Diagram]
 
