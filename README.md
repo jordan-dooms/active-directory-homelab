@@ -57,16 +57,17 @@ The lab uses separate networks to simulate a production environment and an attac
 - corp.lab
 
 Infrastructure
-[System]	        [Role]                    	[IP Address]
+System	        Role                  	IP Address
 DC01	      Domain Controller /            DNS	192.168.50.40
 WIN11-CMD  	Windows 11 Command Center	      192.168.50.10
 WIN11-TEST	Windows 11 Test Client	        192.168.50.30
 Kali	      Security Testing System     	 192.168.60.0/24
-Architecture Diagram
+
+[Architecture Diagram]
 
 An architecture diagram will be added to illustrate the relationship between the firewall, networks, domain controller, Windows endpoints, and security-testing systems.
 
-Active Directory
+[Active Directory]
 
 The Windows Server 2022 system was configured as the domain controller for the corp.lab environment.
 
