@@ -42,7 +42,7 @@ _________________________
 - Splunk Universal Forwarder
 - Network Architecture
 
-The lab uses separate networks to simulate a production environment and an attacker/security-testing environment.
+# The lab uses separate networks to simulate a production environment and an attacker/security-testing environment.
 
 [Lab Network]
 
@@ -65,15 +65,15 @@ The lab uses separate networks to simulate a production environment and an attac
 | **WIN11-TEST** | Windows 11 Test Client | `192.168.50.30` |
 | **Kali** | Security Testing System | `192.168.60.x` |
 
-[Architecture Diagram]
+# Architecture Diagram
 
 An architecture diagram will be added to illustrate the relationship between the firewall, networks, domain controller, Windows endpoints, and security-testing systems.
 
-[Active Directory]
+# Active Directory
 
 The Windows Server 2022 system was configured as the domain controller for the corp.lab environment.
 
-The lab includes hands-on administration of:
+# The lab includes hands-on administration of:
 - Users
 - Security groups
 - Computer objects
@@ -85,7 +85,7 @@ The lab includes hands-on administration of:
 
 Windows 11 systems were joined to the corp.lab domain.
 
-[Endpoint administration includes:]
+# Endpoint administration includes:
 - Domain joining
 - User authentication
 - Group Policy application
@@ -94,11 +94,11 @@ Windows 11 systems were joined to the corp.lab domain.
 - Remote administration
 - Security Monitoring
 
-Splunk Enterprise is used to collect and analyze Windows event logs from systems within the lab.
+# Splunk Enterprise is used to collect and analyze Windows event logs from systems within the lab.
 
-Windows systems use Splunk Universal Forwarders to send logs to the Splunk server.
+- Windows systems use Splunk Universal Forwarders to send logs to the Splunk server.
 
-[This provides a foundation for:]
+This provides a foundation for:
 - Security event analysis
 - Authentication monitoring
 - Threat detection
